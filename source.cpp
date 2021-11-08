@@ -13,6 +13,12 @@ int main()
 	cin >> b;
 	cout << "Chon phep toan (+,-) ";
 	cin >> phepToan;
+	if(phepToan == "+")
+		cout << "Tổng 2 số: " << tong(a,b);
 	system("pause");
 	return 0;
+}
+
+int tong(int a, int b){
+	return a + b;
 }
