@@ -17,8 +17,8 @@ int main()
 		cout << "Hiệu 2 số: " << hieu(a,b);
 	if(phepToan == "+")
 		cout << "Tổng 2 số: " << tong(a,b);
-	if(phepToan == "*A")
-		cout << "Tổng 2 số: " << tong(a,b);
+	if(phepToan == "*")
+		cout << "Tích 2 số: " << tich(a,b);
 	system("pause");
 	return 0;
 }
