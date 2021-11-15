@@ -26,9 +26,18 @@ int main()
 int tich(int a, int b){
 	return a - b; 
 
+	if(phepToan == "*A")
+		cout << "Tổng 2 số: " << tong(a,b);
+	system("pause");
+	return 0;
+}
+int tich(int a, int b){
+	return a * b;
 int hieu(int a, int b){
 	return a - b;
 int tong(int a, int b){
 	return a + b;
 }
 “//Cau 19
+
+
